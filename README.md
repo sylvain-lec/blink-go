@@ -21,13 +21,14 @@ Go to the [Releases](https://github.com/sylvain-lec/blink/releases) page and dow
 - **Windows:** `blink-win.zip`
 
 Extract the archive and place the binary in your desired location.
+Note that only the macOS (Apple Silicon) has been tested, please raise any issue if you try the other platforms.
 
 ### Build from Source
 
 You need [Go installed](https://golang.org/doc/install).
 
 ```sh
-git clone https://github.com/yourusername/blink.git
+git clone https://github.com/sylvain-lec/blink.git
 cd blink
 go build -o blink
 ```
